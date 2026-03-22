@@ -55,8 +55,8 @@ export const dummyStoreData = {
     updatedAt: "2025-09-04T09:04:44.273Z",
     user: {
         id: "user_31dOriXqC4TATvc0brIhlYbwwc5",
-        name: "Great Stack",
-        email: "user.greatstack@gmail.com",
+        name: "Param Shelke",
+        email: "atxepzyreva@gmail.com",
         image: gs_logo,
     }
 }
@@ -274,8 +274,8 @@ export const couponDummyData = [
 
 export const dummyUserData = {
     id: "user_31dQbH27HVtovbs13X2cmqefddM",
-    name: "GreatStack",
-    email: "greatstack@example.com",
+    name: "Param Shelke",
+    email: "atxepzyreva@gmail.com",
     image: gs_logo,
     cart: {}
 }
@@ -328,9 +328,9 @@ export const storesDummyData = [
     {
         id: "cmemkb98v0001tat8r1hiyxhn",
         userId: "user_31dOriXqC4TATvc0brIhlYbwwc5",
-        name: "GreatStack",
-        description: "GreatStack is the education marketplace where you can buy goodies related to coding and tech",
-        username: "greatstack",
+        name: "ToCart Official",
+        description: "ToCart is a modern multi-vendor marketplace for electronics and lifestyle products.",
+        username: "tocart-official",
         address: "123 Maplewood Drive Springfield, IL 62704 USA",
         status: "approved",
         isActive: true,
