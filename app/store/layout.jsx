@@ -1,8 +1,8 @@
 import StoreLayout from "@/components/store/StoreLayout";
 
 export const metadata = {
-    title: "ToCart - Store Dashboard",
-    description: "ToCart - Store Dashboard",
+    title: "ToCart - Store Dashboard | ToCart",
+    description: "ToCart - Store Dashboard by Param Shelke.",
 };
 
 export default function RootAdminLayout({ children }) {

@@ -40,7 +40,7 @@ export default function Dashboard() {
 
     return (
         <div className=" text-slate-500 mb-28">
-            <h1 className="text-2xl">Seller <span className="text-slate-800 font-medium">Dashboard</span></h1>
+            <h1 className="text-2xl">Seller <span className="text-slate-800 font-medium">Dashboard</span> <span className="text-blue-600 font-bold">ToCart</span></h1>
 
             <div className="flex flex-wrap gap-5 my-10 mt-4">
                 {

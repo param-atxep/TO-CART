@@ -38,7 +38,7 @@ We welcome contributions from everyone, whether it's fixing a bug, adding a new 
 - **Small, Focused PRs** → Don’t bundle unrelated changes in one PR  
 - **Commit Messages** → Use clear and descriptive messages (e.g., `feat: add new feature`, `fix: resolve issue #123`).
 - **Code Style** → Follow the existing code style (e.g., indentation, naming conventions, etc.).
-- **Accessibility** → Ensure that the website is accessible to all users
+- **Accessibility** → Ensure that the ToCart website is accessible to all users
 - **Discussions First** → For large changes (new features, big design changes), discuss the changes first to avoid wasting time on implementation.
 - **Respect Others** → Follow the [Code of Conduct](./CODE_OF_CONDUCT.md)  
 

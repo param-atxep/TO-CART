@@ -6,8 +6,8 @@ import "./globals.css";
 const outfit = Outfit({ subsets: ["latin"], weight: ["400", "500", "600"] });
 
 export const metadata = {
-    title: "ToCart - Shop smarter",
-    description: "ToCart - Modern multi-vendor eCommerce",
+    title: "ToCart - Shop smarter | ToCart",
+    description: "ToCart - Modern multi-vendor eCommerce platform by Param Shelke.",
 };
 
 export default function RootLayout({ children }) {
