@@ -77,6 +77,22 @@ export const productDummyData = [
         createdAt: 'Sat Jul 29 2025 14:51:25 GMT+0530 (India Standard Time)',
         updatedAt: 'Sat Jul 29 2025 14:51:25 GMT+0530 (India Standard Time)',
     },
+    // --- Extra mock products for demo ---
+    ...Array.from({ length: 50 }, (_, i) => ({
+        id: `prod_extra_${i+1}`,
+        name: `Demo Product ${i+1}`,
+        description: `This is a demo product for ToCart. Product number ${i+1}.`,
+        mrp: 100 + i,
+        price: 49 + (i % 20),
+        images: [product_img1, product_img2, product_img3, product_img4].slice(0, ((i%4)+1)),
+        category: categories[i % categories.length],
+        storeId: "seller_1",
+        inStock: true,
+        store: dummyStoreData,
+        rating: dummyRatingsData,
+        createdAt: new Date(Date.now() - i * 86400000).toString(),
+        updatedAt: new Date(Date.now() - i * 86400000).toString(),
+    })),
     {
         id: "prod_2",
         name: "Smart speaker gray",

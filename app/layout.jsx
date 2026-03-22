@@ -14,10 +14,10 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en">
             <body className={`${outfit.className} antialiased`}>
-                <StoreProvider>
-                    <Toaster />
-                    {children}
-                </StoreProvider>
+                                <StoreProvider>
+                                        <Toaster />
+                                        {children}
+                                </StoreProvider>
             </body>
         </html>
     );

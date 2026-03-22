@@ -2,6 +2,7 @@
 import Banner from "@/components/Banner";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import ClientRoot from "@/components/ClientRoot";
 
 export default function PublicLayout({ children }) {
 
@@ -9,7 +10,9 @@ export default function PublicLayout({ children }) {
         <>
             <Banner />
             <Navbar />
-            {children}
+            <ClientRoot>
+                {children}
+            </ClientRoot>
             <Footer />
         </>
     );

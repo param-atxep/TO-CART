@@ -9,16 +9,19 @@ const Counter = ({ productId }) => {
     const dispatch = useDispatch();
 
     const addToCartHandler = () => {
+        // Optionally pass stock if available
         dispatch(addToCart({ productId }))
     }
 
     const removeFromCartHandler = () => {
-        dispatch(removeFromCart({ productId }))
+        if (cartItems[productId] > 1) {
+            dispatch(removeFromCart({ productId }))
+        }
     }
 
     return (
         <div className="inline-flex items-center gap-1 sm:gap-3 px-3 py-1 rounded border border-slate-200 max-sm:text-sm text-slate-600">
-            <button onClick={removeFromCartHandler} className="p-1 select-none">-</button>
+            <button onClick={removeFromCartHandler} className="p-1 select-none" disabled={cartItems[productId] <= 1}>-</button>
             <p className="p-1">{cartItems[productId]}</p>
             <button onClick={addToCartHandler} className="p-1 select-none">+</button>
         </div>
